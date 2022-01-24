@@ -1,0 +1,122 @@
+[
+    {
+        "sku": 1,
+        "vehicle": "Auto",
+        "brand": "Mercedes Benz",
+        "motorpart": "Asiento de valvula",
+        "stock": 100,
+        "price": 1500,
+        "name":"AV 4317", 
+        "img": "img/AV4317.jpg"
+    },
+    {
+        "sku": 2,
+        "vehicle": "Auto",
+        "brand": "Mercedes Benz",
+        "motorpart": "Guia de valvula",
+        "stock": 100,
+        "price": 1000,
+        "name": "GB 1593", 
+        "img": "img/GB1593.jpg"
+    },
+    {
+        "sku": 3,
+        "vehicle": "Auto",
+        "brand": "Mercedes Benz",
+        "motorpart": "Valvula",
+        "stock": 100,
+        "price": 2500,
+        "name": "V 1005", 
+        "img": "img/V1005.jpg"
+    },
+    {
+        "sku": 4,
+        "vehicle": "Auto",
+        "brand": "BMW",
+        "motorpart": "Asiento de valvula",
+        "stock": 100,
+        "price": 1800,
+        "name": "AV 4319", 
+        "img": "img/AV4319.jpg"
+    },
+    {
+        "sku": 5,
+        "vehicle": "Auto",
+        "brand": "BMW",
+        "motorpart": "Guia de valvula",
+        "stock": 100,
+        "price": 900,
+        "name": "GB 1621", 
+        "img": "img/GB1621.jpg"
+    },
+    {
+        "sku": 6,
+        "vehicle": "Auto",
+        "brand": "BMW",
+        "motorpart": "Valvula",
+        "stock": 100,
+        "price": 2000,
+        "name": "V 1007", 
+        "img": "img/V1007.jpg"
+    },
+    {
+        "sku": 7,
+        "vehicle": "Moto",
+        "brand": "Yamaha",
+        "motorpart": "Asiento de valvula",
+        "stock": 100,
+        "price": 600,
+        "name": "AV 4320", 
+        "img": "img/AV4320.jpg"
+    },
+    {
+        "sku": 8,
+        "vehicle": "Moto",
+        "brand": "Yamaha",
+        "motorpart": "Guia de valvula",
+        "stock": 100,
+        "price": 500,
+        "name": "GB 1639", 
+        "img": "img/GB1639.jpg"
+    },
+    {
+        "sku": 9,
+        "vehicle": "Moto",
+        "brand": "Yamaha",
+        "motorpart": "Valvula",
+        "stock": 100,
+        "price": 800,
+        "name": "V 1008", 
+        "img": "img/V1008.jpg"
+    },
+    {
+        "sku": 10,
+        "vehicle": "Moto",
+        "brand": "Kawasaki",
+        "motorpart": "Asiento de valvula",
+        "stock": 100,
+        "price": 700,
+        "name": "AV 4321", 
+        "img": "img/AV4321.jpg"
+    },
+    {
+        "sku": 11,
+        "vehicle": "Moto",
+        "brand": "Kawasaki",
+        "motorpart": "Guia de valvula",
+        "stock": 100,
+        "price": 600,
+        "name": "GB 1642",
+        "img": "img/GB1642.jpg"
+    },
+    {
+        "sku": 12,
+        "vehicle": "Moto",
+        "brand": "Kawasaki",
+        "motorpart": "Valvula",
+        "stock": 100,
+        "price": 900,
+        "name": "V 1109", 
+        "img": "img/V1109.jpg"
+    }
+]

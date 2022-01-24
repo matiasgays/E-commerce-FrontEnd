@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 10</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="web-header">
+        <div class="web-branding">
+            <h1 class="logo"><img src="img/LogoWeskan.png" class="imagen">Guias y Asientos de Valvulas</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" id="icon-shopping-cart">
+                        <span id="number-shopping-cart"></span></a>
+                    </li>
+                </ul>
+                <p id="grid"></p>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="web-main">
+        <section>
+            <div class="section-div">
+                <label for="vehicle">Filter: </label>
+                <select id="products-vehicle" name="vehicle">
+                <option value="" selected="selected">Vehiculo</option>
+                <option value="Auto">Auto</option>
+                <option value="Moto">Moto</option>
+                </select>
+            </div>
+        </section>
+        <section id="products-container"></section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

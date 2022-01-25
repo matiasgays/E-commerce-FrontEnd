@@ -50,8 +50,7 @@ const addCart = e => {
     if(e.target.classList.contains('btn')){
         let productChosen = productsList.find(product => product.sku == e.target.id);
         cart.push(productChosen),
-        saveCart(`cart`,JSON.stringify(cart));
-        $(`#number-shopping-cart`).html(cart.length).show();
+        updateLocalStorage();
     }
 }
 
@@ -61,9 +60,7 @@ const filterSelected = (e) => {
 }
 
 const fadeInCart = (e) => {
-    e.preventDefault();
-    localStorage.clear();
-    saveCart(`cart`,JSON.stringify(cart));
+    e.preventDefault();    
     $(`#grid`).html("");
     console.log(cart);
     let newCart = [...new Set(cart)];
@@ -94,10 +91,14 @@ const fadeOutCart = (e) => {
 
 const removeItem = (e) => {
     if(e.target.classList.contains('btn')){
-        console.log(e.target.id);
-        cart = cart.filter(item => {
-            console.log(item.sku)
-            item.sku !== e.target.id});
-        console.log(cart);
+       cart = cart.filter((item) => {
+            return item.sku != e.target.id});
     }
+    updateLocalStorage();
+}
+
+const updateLocalStorage = () => {
+    localStorage.clear();
+    saveCart(`cart`,JSON.stringify(cart));
+    $(`#number-shopping-cart`).html(cart.length).show();
 }
